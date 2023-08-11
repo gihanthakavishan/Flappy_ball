@@ -1,12 +1,10 @@
-*{
-   
+
+* {
     margin: 0;
     padding: 0;
-
 }
 
-#game{
-
+#game {
     width: 400px;
     height: 500px;
     border: 1px solid #2e055c;
@@ -14,36 +12,34 @@
     overflow: hidden;
 }
 
-#block{
+#block {
     width: 50px;
     height: 500px;
     background-color: black;
     position: relative;
     left: 400px;
-    animation: block 2s infinite linear; 
+    animation: block 2s infinite linear;
 }
 
 @keyframes block {
-    0%{left: 400px;}
-    100%{left: -50px;}
-    
+    0% { left: 400px; }
+    100% { left: -50px; }
 }
 
-#hole{
+#hole {
     width: 50px;
     height: 150px;
     background-color: white;
     position: relative;
     left: 400px;
-    top: -500px;
     animation: block 2s infinite linear;
 }
 
-#character{
-       width: 20px;
-       height: 20px;
-       background-color: deeppink;
-       position: absolute;
-       top: 100px;
-       border-radius: 50%;
+#character {
+    width: 20px;
+    height: 20px;
+    background-color: deeppink;
+    position: absolute;
+    top: 100px;
+    border-radius: 50%;
 }
